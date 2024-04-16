@@ -1,0 +1,73 @@
+:root {
+  --clr-50: #edfafa;
+  --clr-100: #def7ec;
+  --clr-200: #bcf0da;
+  --clr-300: #84e1bc;
+  --clr-400: #31c48d;
+  --clr-500: #0e9f6e;
+  --clr-600: #057a55;
+  --clr-700: #046c4e;
+  --clr-800: #03543f;
+  --clr-900: #014737;
+
+  --transition: 0.3s ease;
+
+  --borrad-btn: 50px;
+  --borrad-footer: 50px 50px 0 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+
+  width: 92.5vw;
+  margin-inline: auto;
+
+  /* font-family: "Bricolage Grotesque", sans-serif; */
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.6rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e1e1e1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(187, 187, 187);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--clr-300);
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1px;
+}
+
+/* ----------------------------------------------------------------------------------------------- */

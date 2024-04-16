@@ -1,0 +1,50 @@
+nav {
+  background-color: white;
+
+  position: sticky;
+  top: 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-block: 2rem;
+}
+
+nav .logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 1rem;
+}
+
+.logo h3 {
+  text-transform: capitalize;
+}
+
+nav .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 1rem;
+}
+
+.menu a {
+  text-transform: capitalize;
+  font-size: 0.9rem;
+
+  transition: var(--transition);
+}
+
+.menu a:hover {
+  color: var(--clr-200);
+}
+
+.menu a.active {
+  color: var(clr-400);
+  font-weight: bold;
+}
+
+/* ----------------------------------------------------------------------------------------------- */
