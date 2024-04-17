@@ -1,0 +1,48 @@
+.about-us .desc {
+  font-size: 3.1rem;
+  text-align: justify;
+}
+
+.desc .icons {
+  display: inline-block;
+}
+
+.desc .icons .icon {
+  background-color: var(--clr-100);
+
+  padding-block: 0.5rem;
+  margin-inline: 0.3rem;
+
+  border-radius: 40px;
+}
+
+.icons .icon svg {
+  transition: var(--transition);
+}
+.icons .icon svg:hover {
+  transform: translateY(-10px);
+}
+
+.desc .border {
+  padding-inline: 0.5em;
+
+  color: var(--clr-500);
+
+  border: 2px solid var(--clr-500);
+  border-radius: 2rem;
+}
+.desc .ref {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+
+  text-transform: capitalize;
+  font-size: calc(3rem / 2.5) !important;
+}
+
+.desc .ref .bx-down-arrow-alt {
+  font-size: 2rem;
+  color: #333;
+
+  rotate: -90deg;
+}
