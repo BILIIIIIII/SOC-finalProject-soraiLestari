@@ -9,6 +9,8 @@ nav {
   align-items: center;
 
   padding-block: 2rem;
+
+  z-index: 999;
 }
 
 nav .logo {
@@ -43,7 +45,7 @@ nav .menu {
 }
 
 .menu a.active {
-  color: var(clr-400);
+  color: var(--clr-400);
   font-weight: bold;
 }
 
