@@ -26,9 +26,6 @@ html,
 body {
   scroll-behavior: smooth;
 
-  width: 92.5vw;
-  margin-inline: auto;
-
   /* font-family: "Bricolage Grotesque", sans-serif; */
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
@@ -60,15 +57,15 @@ a {
   text-decoration: none;
   color: #333;
 }
-/* 
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  line-height: 1px;
-} */
+  font-family: "Bricolage Grotesque", sans-serif;
+}
 
 .bx {
   font-size: 96px;

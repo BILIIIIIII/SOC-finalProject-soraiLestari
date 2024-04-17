@@ -1,0 +1,48 @@
+.process {
+  background-color: var(--clr-300);
+
+  padding: 4rem;
+}
+
+.process .step {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.step .icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 1rem;
+}
+
+.step .icon .fa-solid {
+  background-color: var(--clr-100);
+  color: var(--clr-700);
+
+  width: fit-content;
+
+  font-size: 4rem;
+
+  padding: 2rem;
+
+  border-radius: 50px;
+}
+
+.step .icon .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 1rem;
+}
+
+.icon .info span {
+  background-color: var(--clr-400);
+
+  padding: 0.5rem;
+
+  border-radius: 50px;
+}
