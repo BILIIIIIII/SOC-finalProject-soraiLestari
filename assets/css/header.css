@@ -25,6 +25,7 @@ header .tagline {
 .tagline .sorai h1,
 .tagline .lestari h1 {
   background-image: linear-gradient(to right, var(--clr-500), var(--clr-400));
+  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 
