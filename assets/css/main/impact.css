@@ -1,0 +1,40 @@
+#impact article {
+  display: flex;
+  flex-direction: column;
+}
+
+#impact article h2 span {
+  color: var(--clr-500);
+}
+
+#impact article .metrics-number {
+  background-color: white;
+
+  width: 70%;
+  align-self: center;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  padding: 1rem;
+  border-radius: 50px;
+  gap: 1rem;
+}
+
+#impact article .metrics-number > * {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#impact article .metrics-number > * span {
+  font-size: 2.1rem;
+  font-weight: 600;
+}
+
+#impact article .metrics-number > * p {
+  color: var(--clr-400);
+  text-transform: capitalize;
+}
