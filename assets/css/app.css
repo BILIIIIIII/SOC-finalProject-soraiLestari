@@ -25,6 +25,7 @@
 html,
 body {
   scroll-behavior: smooth;
+  scroll-padding: 7rem;
 
   /* font-family: "Bricolage Grotesque", sans-serif; */
   font-family: "Outfit", sans-serif;
