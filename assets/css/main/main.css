@@ -16,6 +16,12 @@ section h2 {
   margin-bottom: 3rem;
 }
 
+section h3 {
+  font-size: 2rem;
+
+  margin-bottom: 2rem;
+}
+
 /* ----------------------------------------------------------------------------------------------- */
 
 .out-of-main {
