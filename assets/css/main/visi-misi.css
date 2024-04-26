@@ -1,0 +1,32 @@
+#visi-misi {
+  width: 90%;
+  margin-inline: auto;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+
+  gap: 2rem;
+}
+
+#visi-misi > * {
+  display: flex;
+  flex-direction: column;
+
+  padding: 2rem 2rem 4rem 2rem;
+  border-radius: 0.5rem;
+}
+
+#visi-misi figure.visi {
+  background-color: var(--clr-300);
+  color: #333;
+}
+#visi-misi figure.misi {
+  background-color: #333;
+  color: var(--clr-100);
+}
+
+#visi-misi > * figtitle {
+  height: 18rem;
+
+  text-transform: capitalize;
+}
